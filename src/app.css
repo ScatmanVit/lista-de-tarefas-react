@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 20px;
+  gap: 20px;
+  background-color: rgb(198, 198, 198);
+  font-family: Arial, sans-serif;
+}
+
+.todo_list_header {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  width: 100%;
+  max-width: 400px;
+}

@@ -1,0 +1,20 @@
+.container-input {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+}
+
+input {
+    border: 1px solid #0000;
+    border-radius: 22px;
+    outline: none;
+    padding: 6px 5px 6px 5px;
+}
+
+input:hover {
+    border-color: "#d3d3d3";
+}
